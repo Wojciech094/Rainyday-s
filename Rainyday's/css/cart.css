@@ -1,0 +1,167 @@
+.main-cart-h {
+	font-family: 'Anton', 'Open Sans', sans-serif;
+	font-size: 3rem;
+}
+
+.main-cart-container {
+	width: 100%;
+	margin: 0 auto;
+	background-color: #fff;
+	padding: 20px;
+}
+
+.main-cart-item {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 20px;
+	padding: 15px;
+	border: 1px solid #ddd;
+	border-radius: 5px;
+}
+
+.main-cart-img {
+	width: 200px;
+	height: 250px;
+	background-size: cover;
+	background-position: 100% 100%;
+}
+
+#quantity {
+	width: 25px;
+	height: 25px;
+}
+
+.quantity-section {
+	display: flex;
+	align-items: center;
+	margin-right: 10px;
+	font-size: 14px;
+}
+
+.quantity-buttons {
+	display: flex;
+	align-items: center;
+	gap: 5px;
+}
+
+.quantity-btn {
+	background-color: #ddd;
+	border: none;
+	padding: 5px 10px;
+	cursor: pointer;
+	transition: background-color 0.3s ease;
+}
+
+.quantity-btn:hover {
+	background-color: #ccc;
+}
+
+.main-cart-summary {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+	padding: 20px;
+}
+
+.right-options {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+	gap: 20px;
+	flex: 2;
+}
+.empty-cart {
+	display: flex;
+	justify-content: flex-start;
+}
+
+.cart-actions {
+	display: flex;
+	gap: 20px;
+}
+
+.price {
+	font-size: 1.2em;
+}
+
+.main-cart-checkout-btn {
+	background-color: #bf7c41;
+	color: white;
+	border: none;
+	padding: 15px 30px;
+	font-size: 1.2em;
+	cursor: pointer;
+	transition: background-color 0.3s ease;
+}
+
+.main-cart-checkout-btn:hover {
+	background-color: #8b4513;
+}
+
+@media (max-width: 690px) {
+	.main-cart-container {
+		padding: 15px;
+	}
+
+	.main-cart-h {
+		font-size: 1.5em;
+	}
+
+	.breadcrumb {
+		font-size: 12px;
+		padding-bottom: 10px;
+	}
+
+	.main-cart-item {
+		flex-direction: column;
+		align-items: flex-start;
+		padding: 10px 0;
+		gap: 10px;
+	}
+
+	.main-item-details {
+		margin-left: 0;
+		font-size: 0.9em;
+	}
+
+	.main-item-details-h2 {
+		font-size: 1em;
+		margin-bottom: 5px;
+	}
+
+	.quantity-section {
+		font-size: 12px;
+		margin-right: 0;
+	}
+
+	.quantity-buttons {
+		gap: 3px;
+	}
+
+	.price {
+		font-size: 1em;
+	}
+
+	.main-cart-checkout-btn {
+		font-size: 1em;
+		padding: 10px 20px;
+		width: 100%;
+	}
+
+	.main-cart-summary {
+		align-items: stretch;
+	}
+
+	.right-options {
+		align-items: stretch;
+	}
+	.cart-actions {
+		justify-content: center;
+	}
+
+	.cart-actions {
+		flex-direction: row;
+		gap: 10px;
+	}
+}

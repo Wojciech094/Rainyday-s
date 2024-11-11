@@ -1,0 +1,286 @@
+.billing-h1 {
+	font-family: 'Anton', 'Open Sans', sans-serif;
+	font-size: 3rem;
+	margin-top: 50px;
+	margin-left: 25px;
+}
+
+.checkout-container {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+	padding: 20px;
+	
+
+	flex-wrap: nowrap;
+}
+
+.form-1-container,
+.shipping-container,
+.summary-container {
+	flex: 1;
+	margin-right: 20px;
+	padding: 20px;
+	background-color: white;
+	border: 1px solid grey;
+	border-radius: 10px;
+}
+
+.delivery-shipping {
+	display: flex;
+	flex-direction: row;
+	gap: 15px;
+}
+
+.billing-h2,
+.shipping-h2,
+.summary-h2 {
+	font-weight: bold;
+	text-transform: uppercase;
+	margin-bottom: 30px;
+}
+
+.choose-h3,
+.product-h4 {
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+.label-billing {
+	display: block;
+	margin-bottom: 5px;
+	font-weight: bold;
+}
+
+.input-billing {
+	width: 100%;
+	padding: 10px;
+	margin-bottom: 10px;
+	box-sizing: border-box;
+	border: 1px solid #ddd;
+	border-radius: 5px;
+}
+
+.shipping-wrapper {
+	margin-bottom: 20px;
+}
+
+.postnord {
+	background-image: url(../media/Img/postnord-logo.png);
+	width: 120px;
+	height: 50px;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+.vipps {
+	background-image: url(../media/Img/vipps-logo.png);
+	width: 80px;
+	height: 40px;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+.payment-checkout {
+	display: flex;
+	flex-direction: column;
+}
+
+.payment-checkout-wrapper {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: center;
+	gap: 15px;
+	height: 50px;
+	margin-top: 15px;
+}
+
+.visa,
+.mastercard,
+.paypal,
+.vipps {
+	cursor: pointer;
+	transition: transform 0.3s ease;
+}
+
+.visa:hover,
+.mastercard:hover,
+.paypal:hover,
+.vipps:hover {
+	transform: scale(1.1);
+}
+
+.visa i,
+.mastercard i,
+.paypal i {
+	font-size: 2rem;
+}
+
+.discount-code-wrapper,
+.sign-up-wrapper {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+}
+
+.discount .discount-input {
+	width: 100%;
+	margin-top: 15px;
+	margin-bottom: 10px;
+	padding: 10px;
+}
+
+.discount .apply {
+	width: 100%;
+	padding: 10px;
+	background-color: black;
+	color: white;
+	border: none;
+	cursor: pointer;
+}
+
+.discount .apply:hover {
+	background-color: #b07d48;
+}
+
+.sign-up,
+.apply {
+	width: 100%;
+	padding: 10px;
+	background-color: black;
+	color: white;
+	cursor: pointer;
+	font-size: 16px;
+}
+
+.sign-up:hover,
+.apply:hover {
+	background-color: #b07d48;
+}
+
+.product-info {
+	display: flex;
+	align-items: center;
+}
+
+.product-image {
+	background-image: url(../media/Img/main-jacket.jpg);
+	width: 160px;
+	height: 190px;
+	background-size: 100% 100%;
+	margin-right: 20px;
+}
+.product-description {
+	font-size: 14px;
+}
+
+.total-charge {
+	display: flex;
+	justify-content: space-between;
+	font-size: 16px;
+	font-weight: bold;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+
+.total-charge-prise {
+	color: #c9935c;
+	align-self: flex-end;
+}
+
+.terms {
+	font-size: 12px;
+	line-height: 1.5;
+	margin-bottom: 20px;
+}
+
+.agreement {
+	display: flex;
+	gap: 15px;
+	margin-bottom: 20px;
+}
+
+.agreement-terms {
+	font-size: 12px;
+}
+
+.confirm-button {
+	width: 100%;
+	padding: 15px;
+	background-color: #c9935c;
+	color: white;
+	border: none;
+	cursor: pointer;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+.confirm-button:hover {
+	background-color: #b07d48;
+}
+
+.container {
+	width: 100%;
+	padding: 20px;
+	box-sizing: border-box;
+}
+
+@media (max-width: 950px) {
+	.checkout-container {
+		flex-direction: column;
+		align-items: stretch;
+		padding: 10px;
+	}
+
+	.form-1-container,
+	.shipping-container,
+	.summary-container {
+		margin-right: 0;
+		margin-bottom: 20px;
+	}
+
+	.form-1-container {
+		padding: 15px;
+	}
+
+	.product-image {
+		width: 100%;
+		height: 190px;
+		margin-bottom: 15px;
+	}
+	.product-description {
+		text-align: center;
+		margin-left: 0;
+		width: 100%;
+	}
+
+	.total-charge {
+		flex-direction: column;
+		align-items: flex-start;
+	}
+
+	.total-charge-prise {
+		margin-top: 10px;
+	}
+
+	.label-billing {
+		font-size: 14px;
+	}
+
+	.input-billing {
+		font-size: 14px;
+	}
+
+	.sign-up,
+	.apply,
+	.confirm-button {
+		font-size: 14px;
+		padding: 12px;
+	}
+
+	.discount-code-wrapper,
+	.sign-up-wrapper {
+		width: 100%;
+	}
+}

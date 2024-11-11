@@ -1,0 +1,133 @@
+
+
+
+.confirm-container {
+    display: flex;
+    justify-content: flex-start; 
+    align-items: flex-start; 
+    flex-wrap: wrap; 
+   
+    margin-top: 50px;
+   
+    
+    gap: 40px; 
+}
+
+.confirm-wrapper {
+    background-color: #ffffff; 
+   
+    border-radius: 8px; 
+  
+    text-align: left;
+    max-width: 600px; 
+    width: 100%;
+    flex-shrink: 0;
+}
+
+.confirm-h {
+    font-family: 'Anton', 'Open Sans', sans-serif;
+    font-size: 2rem; 
+    color: black;
+    margin-bottom: 20px;
+}
+
+.confirm-text {
+    font-size: 14px; 
+    color: #322f2f;
+    margin-bottom: 40px;
+}
+
+.confirm-wrapper  {
+    font-size: 14px;
+    margin-bottom: 25px;
+    color: black;
+}
+
+
+
+.go-back {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+
+
+.confirm-wrapper-img {
+    display: flex;
+    align-items: center; 
+    gap: 40px; 
+    justify-content: flex-start; 
+    max-width: 500px;
+    width: 100%;
+    padding: 20px;
+    background-color: #ffffff; 
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+.confirm-img {
+    background-image: url(../media/Img/main-jacket.jpg);
+    height: 160px; 
+    width: 120px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+}
+
+.confirm-text-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+
+
+@media (max-width: 390px) {
+    .confirm-container {
+        flex-direction: column-reverse; 
+        padding: 10px;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    .confirm-wrapper, .confirm-wrapper-img {
+        width: 100%;
+        max-width: none;
+        padding: 15px;
+    }
+
+    .confirm-h {
+        font-size: 20px;
+    }
+
+    .confirm-text, .confirm-wrapper  {
+        font-size: 12px; 
+    }
+.confirm-h2{
+    font-size: 1rem;
+}
+    .confirm-img {
+        height: 140px; 
+        width: 100px;
+        margin-bottom: 10px; 
+        
+    }
+
+    .confirm-wrapper-img {
+        flex-direction: row; 
+        align-items: flex-start; 
+    }
+ 
+    
+}

@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Rainyday - Discover our premium collection of outdoor jackets designed for all weather conditions. Perfect for hiking, camping, and everyday wear.">
+    <meta name="keywords"
+        content="outdoor jackets, hiking jackets, waterproof jackets, camping gear, all-weather jackets, raincoats, outdoor clothing">
+    <title>Rainyday's</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Anton&family=Maitree:wght@200;300;400;500;600;700&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Anton&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/4dc294ecf0.js" crossorigin="anonymous"></script>
+    <script src="myscripts.js"></script>
+</head>
+
+
+<body>
+    <div class="hn">
+        <header>
+            <div class="burger" id="burger">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+            <div class="logo"></div>
+            <div class="sab">
+                <div class="search-container">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <input class="input-search" type="text" placeholder="Search">
+                </div>
+                <div class="account-container">
+                    <i class="fa-solid fa-circle-user"></i>
+                    <div class="account">My account</div>
+                    <i class="fa-solid fa-chevron-down"></i>
+                </div>
+                <div class="basket-wrapper">
+                    <i class="fa-solid fa-basket-shopping"></i>
+                    <div class="cart">Cart</div>
+                </div>
+            </div>
+        </header>
+
+        <div class="search-wrapper">
+            <div class="search-container">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <input class="input-search" type="text" placeholder="Search">
+            </div>
+        </div>
+
+        <div class="basket-container-mobile" id="basket-toggle">
+            <i class="fa-solid fa-basket-shopping"></i>
+
+        </div>
+
+        <div class="cart-details" id="cart-details">
+            <h3 class="cart-details-h">ITEM HAS BEEN ADDED TO THE CART</h3>
+            <div class="cart-items" id="cart-items"></div>
+
+            <p class="cart-total">Total: <span id="cart-total-price">0</span> kr</p>
+            <div class="checkout-btn">
+                <a href="index.html"><button class="checkout-btn-c">CONTINUE SHOPPING</button></a>
+                <a href="cart.html"><button class="checkout-btn-g">GO TO CART</button></a>
+            </div>
+        </div>
+
+        <nav>
+            <ul class="nav-bar" id="nav-bar">
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="#">NEW PRODUCT</a></li>
+                <li><a href="#">WOMEN</a></li>
+                <li><a href="jackets.html">MEN</a></li>
+                <li><a href="#">EQUIPMENT</a></li>
+                <li><a href="#">ACCESSORIES</a></li>
+            </ul>
+        </nav>
+    </div>
+
+
+
+
+    <section class="confirm-container">
+        <div class="confirm-wrapper">
+            <h1 class="confirm-h">ORDER CONFIRMATION</h1>
+            <p class="confirm-text">
+                Your order has been successfully purchased and will be shipped as soon as possible.
+            </p>
+            <div>Thank you for shopping with us!</div>
+            <button class="go-back"><a class="go-back" href="index.html">GO BACK TO SHOP</a></button>
+        </div>
+
+        <div class="confirm-wrapper-img">
+            <div class="confirm-img"></div>
+            <div class="confirm-text-wrapper">
+                <h2 class="confirm-h2">PILGRIM ANORAK JACKET</h2>
+                <p class="confirm-jacket-text-colour">COLOUR: <span>DIRTY GREY</span></p>
+                <p class="confirm-jacket-text-size">SIZE: <span>L</span></p>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+    <footer class="footer-container">
+        <div class="footer-wrapper">
+            <h3 class="footer-h">COMPANY</h3>
+            <ul class="footer">
+                <li><a href="about.html">About us</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="#">Our services</a></li>
+                <li><a href="#">Privacy policy</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-wrapper">
+            <h3 class="footer-h">Help and support</h3>
+            <ul class="footer">
+                <li><a href="#">FAQ</a></li>
+                <li><a href="#">Shipping</a></li>
+                <li><a href="#">Returns</a></li>
+                <li><a href="#">Status</a></li>
+                <li><a href="#">Payment</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-wrapper">
+            <h3 class="footer-h">Follow us</h3>
+            <ul class="footer">
+                <li><a href="#">Facebook</a></li>
+                <li><a href="#">Instagram</a></li>
+                <li><a href="confirm.html">X</a></li>
+            </ul>
+        </div>
+    </footer>
+
+
+
+
+    <script>
+
+        const burger = document.getElementById('burger');
+        const navBar = document.getElementById('nav-bar');
+
+        burger.addEventListener('click', () => {
+            navBar.classList.toggle('active');
+        });
+    </script>
+
+</body>
+
+</html>

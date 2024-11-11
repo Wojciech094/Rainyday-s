@@ -1,0 +1,153 @@
+.contact-container {
+	display: flex;
+	justify-content: center;
+	padding: 80px 0;
+}
+
+.contact-wrapper {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: left;
+	width: 100%;
+}
+
+.contact-info {
+	max-width: 250px;
+	padding-right: 20px;
+}
+
+.contact-img {
+	background-image: url(../media/Img/contact-us.png);
+	height: 590px;
+	width: 964px;
+	background-size: cover;
+	background-position: left;
+}
+
+.contact-h {
+	font-family: 'Anton', 'Open Sans', sans-serif;
+	
+	font-size: 3rem;
+	margin-bottom: 25px;
+}
+
+.contact-text {
+	font-size: 1rem;
+	line-height: 1.6;
+	color: #333;
+	margin-bottom: 20px;
+}
+
+.contact-container-2 {
+    padding: 20px 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.contact-wrapper-2 {
+    max-width: 1200px; /* Optional: to center the content */
+    width: 100%;
+}
+
+.contact-h2 {
+    font-size: 1.4rem;
+    margin-bottom: 25px;
+    text-align: flex-start;
+}
+
+.contact-list {
+    display: flex;
+    gap: 20px;
+    padding-left: 0;
+    list-style: none;
+	
+}
+
+.contact-list  {
+    padding: 50px; 
+	
+}
+
+
+.contact-email {
+	color: #0073e6;
+	text-decoration: none;
+}
+
+.contact-list-text :hover {
+	text-decoration: underline;
+}
+
+.section-3 {
+	font-size: 1rem;
+	padding: 90px 150px;
+	
+	text-align: center;
+	color: #333;
+}
+
+.section-3-h2 {
+	font-size: 1.6rem;
+	line-height: 1.6;
+	max-width: 800px;
+	margin: 0 auto;
+}
+
+@media (max-width: 592px) {
+	.contact-container {
+		padding: 0 30px;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.contact-wrapper {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		padding: 0 10px;
+	}
+
+	.contact-info {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		max-width: 100%;
+		padding-right: 0;
+		text-align: center;
+	}
+
+	.contact-h {
+		font-size: 1.8rem;
+	}
+
+	.contact-img {
+		width: 100%;
+		height: 350px;
+		margin-bottom: 20px;
+	}
+
+	.contact-text {
+		font-size: 0.9rem;
+	}
+
+	.contact-list {
+		flex-direction: column;
+		align-items: center;
+		list-style: disc;
+		gap: 10px;
+		padding: 0 0 0 10px;
+	}
+
+	.contact-list-text {
+		font-size: 1rem;
+	}
+
+	.section-3 {
+		padding: 40px 15px;
+	}
+	.section-3-h2 {
+		font-size: 1rem;
+	}
+}

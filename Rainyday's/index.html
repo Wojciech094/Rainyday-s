@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Rainyday - Discover our premium collection of outdoor jackets designed for all weather conditions. Perfect for hiking, camping, and everyday wear.">
+    <meta name="keywords"
+        content="outdoor jackets, hiking jackets, waterproof jackets, camping gear, all-weather jackets, raincoats, outdoor clothing">
+    <title>Rainyday's</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Anton&family=Maitree:wght@200;300;400;500;600;700&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Anton&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/4dc294ecf0.js" crossorigin="anonymous"></script>
+    <script src="myscripts.js"></script>
+</head>
+
+<body>
+    <div class="hn">
+        <header>
+            <div class="burger" id="burger">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+            <div class="logo"></div>
+            <div class="sab">
+                <div class="search-container">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <input class="input-search" type="text" placeholder="Search">
+                </div>
+                <div class="account-container">
+                    <i class="fa-solid fa-circle-user"></i>
+                    <div class="account">My account</div>
+                    <i class="fa-solid fa-chevron-down"></i>
+                </div>
+                <div class="basket-wrapper">
+                    <i class="fa-solid fa-basket-shopping"></i>
+                    <div class="cart">Cart</div>
+                </div>
+            </div>
+        </header>
+
+        <div class="search-wrapper">
+            <div class="search-container">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <input class="input-search" type="text" placeholder="Search">
+            </div>
+        </div>
+
+        <div class="basket-container-mobile" id="basket-toggle">
+            <i class="fa-solid fa-basket-shopping"></i>
+
+        </div>
+
+        <div class="cart-details" id="cart-details">
+            <h3 class="cart-details-h">ITEM HAS BEEN ADDED TO THE CART</h3>
+            <div class="cart-items" id="cart-items"></div>
+
+            <p class="cart-total">Total: <span id="cart-total-price">0</span> kr</p>
+            <div class="checkout-btn">
+                <a href="index.html"><button class="checkout-btn-c">CONTINUE SHOPPING</button></a>
+                <a href="cart.html"><button class="checkout-btn-g">GO TO CART</button></a>
+            </div>
+        </div>
+
+        <nav>
+            <ul class="nav-bar" id="nav-bar">
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="jackets.html">NEW PRODUCT</a></li>
+                <li><a href="jackets.html">WOMEN</a></li>
+                <li><a href="jackets.html">MEN</a></li>
+                <li><a href="jackets.html">EQUIPMENT</a></li>
+                <li><a href="jackets.html">ACCESSORIES</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <!-- <div class="main-img">
+            <button class="main-btn-img">CHECK OUR OFFER</button>
+        </div> -->
+
+    <div class="slideshow-container">
+
+        <!-- Slide 1 -->
+        <div class="slide fade">
+            <img src="./media/Img/main.jpg" alt="Slide 1" class="slide-image">
+            <a href="jackets.html"><button class="offer-btn">Check Our Offer</button></a>
+        </div>
+
+        <!-- Slide 2 -->
+        <div class="slide fade">
+            <img src="./media/Img/image 24.jpg" alt="Slide 2" class="slide-image">
+            <a href="jackets.html"><button class="offer-btn">Check Our Offer</button></a>
+        </div>
+
+        <!-- Slide 3 -->
+        <div class="slide fade">
+            <img src="./media/Img/image-5.jpg" alt="Slide 3" class="slide-image">
+            <a href="jackets.html"><button class="offer-btn">Check Our Offer</button></a>
+        </div>
+
+
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    <br>
+
+
+    <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+    </div>
+
+
+
+
+    <div class="our-concept">
+        <div class="concept-row">
+            <div class="square square-1">
+                <h2 class="concept-heading">OUR CONCEPT</h2>
+                <p>Each concept has its focus on nature where quality meets challenge</p>
+            </div>
+            <div class="square">
+                <img src="./media/Img/image-1.jpg" alt="Image of walking around mountains " class="our-img">
+            </div>
+
+            <div class="square">
+                <img src="./media/Img/image-2.jpg" alt="Image of walking around mountains" class="our-img">
+            </div>
+        </div>
+        <div class="concept-row">
+            <div class="square">
+                <img src="./media/Img/image-3.jpg" alt="Image of walking around mountains" class="our-img">
+            </div>
+            <div class="square">
+                <img src="./media/Img/image-4.jpg" alt="Image of walking around mountains" class="our-img">
+            </div>
+            <div class="square">
+                <img src="./media/Img/image-5.jpg" alt="Image of walking around mountains" class="our-img">
+            </div>
+        </div>
+    </div>
+
+    <div class="suggest">
+        <h2 class="suggest-h2">SUGGESTED PRODUCTS</h2>
+        <div class="suggest-images">
+            <div class="suggest-item">
+                <img src="./media/Img/main-jacket.jpg" alt="image of jacket" class="suggest-img">
+
+
+                <p class="suggest-text">WOLFHOUND Hoodie 2799kr</p>
+                <button class="add-to-cart-btn" data-item-name="WOLFHOUND Hoodie" data-item-price="2799">Add to
+                    Cart</button>
+            </div>
+            <div class="suggest-item">
+                <img src="./media/Img/jacket-2.jpg" alt="image of jacket" class="suggest-img">
+                <p class="suggest-text">PILGRIM Anorak Jacket 2599kr</p>
+                <button class="add-to-cart-btn" data-item-name="WOLFHOUND Hoodie" data-item-price="2799">Add to
+                    Cart</button>
+            </div>
+            <div class="suggest-item">
+                <img src="./media/Img/jacket-3.jpg" alt="image of jacket" class="suggest-img">
+                <p class="suggest-text">DURACANVAS Jacket 2999kr</p>
+                <button class="add-to-cart-btn" data-item-name="WOLFHOUND Hoodie" data-item-price="2799">Add to
+                    Cart</button>
+            </div>
+            <div class="suggest-item">
+                <img src="./media/Img/jacket-4.jpg" alt="image of jacket" class="suggest-img">
+                <p class="suggest-text">Silence Proshell Jacket 1799kr</p>
+                <button class="add-to-cart-btn" data-item-name="WOLFHOUND Hoodie" data-item-price="2799">Add to
+                    Cart</button>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer-container">
+        <div class="footer-wrapper">
+            <h3 class="footer-h">COMPANY</h3>
+            <ul class="footer">
+                <li><a href="about.html">About us</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="#">Our services</a></li>
+                <li><a href="#">Privacy policy</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-wrapper">
+            <h3 class="footer-h">Help and support</h3>
+            <ul class="footer">
+                <li><a href="#">FAQ</a></li>
+                <li><a href="#">Shipping</a></li>
+                <li><a href="#">Returns</a></li>
+                <li><a href="#">Status</a></li>
+                <li><a href="jacket-details.html">Payment</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-wrapper">
+            <h3 class="footer-h">Follow us</h3>
+            <ul class="footer">
+                <li><a href="cart.html">Facebook</a></li>
+                <li><a href="checkout.html">Instagram</a></li>
+                <li><a href="confirm.html">X</a></li>
+            </ul>
+        </div>
+    </footer>
+
+
+    <script>
+
+        const burger = document.getElementById('burger');
+        const navBar = document.getElementById('nav-bar');
+
+        burger.addEventListener('click', () => {
+            navBar.classList.toggle('active');
+        });
+
+
+        const basketToggle = document.getElementById('basket-toggle');
+        const cartDetails = document.getElementById('cart-details');
+        let cartCount = 0;
+        let cartItems = [];
+
+        basketToggle.addEventListener('click', () => {
+            cartDetails.classList.toggle('active');
+        });
+
+        // Add to Cart function
+        function addToCart(itemName, itemPrice) {
+            cartCount++;
+            cartItems.push({ name: itemName, price: itemPrice });
+            updateCartDisplay();
+        }
+
+        // Update Cart Display
+        function updateCartDisplay() {
+            const cartItemsContainer = document.getElementById('cart-items');
+            const cartTotalPrice = document.getElementById('cart-total-price');
+            let total = 0;
+
+            cartItemsContainer.innerHTML = '';
+            cartItems.forEach(item => {
+                const itemElement = document.createElement('div');
+                itemElement.classList.add('cart-item');
+                itemElement.innerHTML = `<p>${item.name} - ${item.price} kr</p>`;
+                cartItemsContainer.appendChild(itemElement);
+                total += item.price;
+            });
+            cartTotalPrice.textContent = total;
+        }
+        document.querySelector(".basket-wrapper").addEventListener("click", function () {
+            document.querySelector(".cart-details").classList.toggle("active");
+        });
+        // Add-to-Cart Button Functionality
+        document.querySelectorAll('.add-to-cart-btn').forEach(button => {
+            button.addEventListener('click', () => {
+                const itemName = button.getAttribute('data-item-name');
+                const itemPrice = parseInt(button.getAttribute('data-item-price'));
+                addToCart(itemName, itemPrice);
+            });
+        });
+
+
+        let slideIndex = 0;
+        showSlides();
+
+        function showSlides() {
+            const slides = document.querySelectorAll('.slide');
+            slides.forEach((slide) => (slide.style.display = 'none'));
+            slideIndex++;
+            if (slideIndex > slides.length) { slideIndex = 1; }
+            slides[slideIndex - 1].style.display = 'block';
+            setTimeout(showSlides, 5000);
+        }
+    </script>
+
+
+</body>
+
+</html>

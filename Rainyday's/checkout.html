@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Rainyday - Discover our premium collection of outdoor jackets designed for all weather conditions. Perfect for hiking, camping, and everyday wear.">
+    <meta name="keywords"
+        content="outdoor jackets, hiking jackets, waterproof jackets, camping gear, all-weather jackets, raincoats, outdoor clothing">
+    <title>Rainyday's</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Anton&family=Maitree:wght@200;300;400;500;600;700&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Anton&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/4dc294ecf0.js" crossorigin="anonymous"></script>
+    <script src="myscripts.js"></script>
+</head>
+
+
+<body>
+    <div class="hn">
+        <header>
+            <div class="burger" id="burger">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+            <div class="logo"></div>
+            <div class="sab">
+                <div class="search-container">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <input class="input-search" type="text" placeholder="Search">
+                </div>
+                <div class="account-container">
+                    <i class="fa-solid fa-circle-user"></i>
+                    <div class="account">My account</div>
+                    <i class="fa-solid fa-chevron-down"></i>
+                </div>
+                <div class="basket-wrapper">
+                    <i class="fa-solid fa-basket-shopping"></i>
+                    <div class="cart">Cart</div>
+                </div>
+            </div>
+        </header>
+
+        <div class="search-wrapper">
+            <div class="search-container">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <input class="input-search" type="text" placeholder="Search">
+            </div>
+        </div>
+
+        <div class="basket-container-mobile" id="basket-toggle">
+            <i class="fa-solid fa-basket-shopping"></i>
+
+        </div>
+
+        <div class="cart-details" id="cart-details">
+            <h3 class="cart-details-h">ITEM HAS BEEN ADDED TO THE CART</h3>
+            <div class="cart-items" id="cart-items"></div>
+
+            <p class="cart-total">Total: <span id="cart-total-price">0</span> kr</p>
+            <div class="checkout-btn">
+                <a href="index.html"><button class="checkout-btn-c">CONTINUE SHOPPING</button></a>
+                <a href="cart.html"><button class="checkout-btn-g">GO TO CART</button></a>
+            </div>
+        </div>
+
+        <nav>
+            <ul class="nav-bar" id="nav-bar">
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="#">NEW PRODUCT</a></li>
+                <li><a href="#">WOMEN</a></li>
+                <li><a href="jackets.html">MEN</a></li>
+                <li><a href="#">EQUIPMENT</a></li>
+                <li><a href="#">ACCESSORIES</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <h1 class="billing-h1">CHECKOUT</h1>
+
+    <div class="checkout-container">
+
+        <section class="form-1-container">
+            <div class="form-1-wrapper">
+                <h2 class="billing-h2">1. BILLING</h2>
+                <form class="Form">
+                    <label class="label-billing" for="name">FIRST NAME:</label>
+                    <input class="input-billing" type="text" id="name" placeholder="Ole" name="name" required />
+
+                    <label class="label-billing" for="last-name">LAST NAME:</label>
+                    <input class="input-billing" type="text" id="last-name" placeholder="Nordmann" name="last-name"
+                        required />
+
+                    <label class="label-billing" for="address">ADDRESS:</label>
+                    <input class="input-billing" type="text" id="address" placeholder="Gate" name="address" required />
+
+                    <label class="label-billing" for="postal-code">POSTAL CODE:</label>
+                    <input class="input-billing" type="text" id="postal-code" placeholder="1234" name="postal-code"
+                        required />
+
+                    <label class="label-billing" for="city">CITY:</label>
+                    <input class="input-billing" type="text" list="cities" id="city" name="city" required />
+                    <datalist id="cities">
+                        <option value="Warszawa"></option>
+                        <option value="Oslo"></option>
+                        <option value="Bergen"></option>
+                        <option value="Kristiansand"></option>
+                    </datalist>
+
+                    <label class="label-billing" for="mobile">MOBILE:</label>
+                    <input class="input-billing" type="text" id="mobile" placeholder="+47" name="mobile" required />
+
+                    <label class="label-billing" for="email">E-POST:</label>
+                    <input class="input-billing" type="email" id="email" placeholder="example@hotmail.com" name="email"
+                        required />
+
+                    <div class="sign-up-wrapper">
+
+                        <button type="submit" class="sign-up">SIGN UP</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+
+
+        <section class="shipping-container">
+            <div class="shipping-wrapper">
+                <h2 class="shipping-h2">2. SHIPPING AND PAYMENT</h2>
+
+                <h3 class="choose-h3">CHOOSE DELIVERY METHOD</h3>
+                <div class="delivery-shipping">
+                    <div class="postnord"></div>
+                    <div> POSTNORD DELIVERY NOK 0.00</div>
+                </div>
+
+                <div class="payment-checkout">
+                    <h3 class="payment-checkout-h">CHOOSE PAYMENT METHOD</h3>
+                    <div class="payment-checkout-wrapper">
+                        <div class="visa"><i class="fa-brands fa-cc-visa"></i></div>
+                        <div class="mastercard"><i class="fa-brands fa-cc-mastercard"></i></div>
+                        <div class="paypal"><i class="fa-brands fa-paypal"></i></div>
+                        <div class="vipps"><a href="#"></a></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="discount">
+                <h2 class="discount-h2">3. DISCOUNT CODES</h2>
+                <div>DO YOU HAVE A PROMO CODE?</div>
+                <div class="discount-code-wrapper">
+                    <input type="text" id="code" name="code" class="discount-input" placeholder="Enter promo code" />
+                    <button type="submit" class="apply">APPLY</button>
+                </div>
+            </div>
+        </section>
+
+
+        <div class="summary-container">
+            <h2 class="summary-h2">3. SUMMARY</h2>
+
+            <div class="product-details">
+                <h4 class="product-h4">PRODUCTS</h4>
+                <div class="product-info">
+                    <div class="product-image"></div>
+                    <div class="product-description">
+                        <p><strong>PILGRIM ANORAK JACKET</strong></p>
+                        <p><strong>COLOUR :</strong> DIRTY GREEN</p>
+                        <p><strong>SIZE :</strong> L</p>
+                        <p><strong>QUANTITY :</strong> 1</p>
+                        <p><strong>PRICE :</strong> 2999.-</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="total-charge">
+
+                <p><strong>TO BE CHARGED</strong></p>
+
+                <p class="total-charge-prise">2999.-</p>
+
+            </div>
+
+            <div class="terms">
+                <p>Terms and Conditions</p>
+                <p>By purchasing from RAINDAYS, you agree to these terms, which apply to all online and in-store orders.
+                    All
+                    prices include taxes unless noted, and full payment is required at checkout. Shipping options
+                    include
+                    standard and expedited, with delivery times varying by location. Tracking information will be
+                    provided
+                    once your order is shipped.</p>
+            </div>
+
+            <div class="agreement">
+                <input type="checkbox" id="terms" checked>
+                <label class="agreement-terms" for="terms">I do agree with Terms and Conditions</label>
+            </div>
+
+            <a href="confirm.html"><button class="confirm-button">CONFIRM AND PAY</button></a>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+    <footer class="footer-container">
+        <div class="footer-wrapper">
+            <h3 class="footer-h">COMPANY</h3>
+            <ul class="footer">
+                <li><a href="about.html">About us</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="#">Our services</a></li>
+                <li><a href="#">Privacy policy</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-wrapper">
+            <h3 class="footer-h">Help and support</h3>
+            <ul class="footer">
+                <li><a href="#">FAQ</a></li>
+                <li><a href="#">Shipping</a></li>
+                <li><a href="#">Returns</a></li>
+                <li><a href="#">Status</a></li>
+                <li><a href="#">Payment</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-wrapper">
+            <h3 class="footer-h">Follow us</h3>
+            <ul class="footer">
+                <li><a href="#">Facebook</a></li>
+                <li><a href="#">Instagram</a></li>
+                <li><a href="confirm.html">X</a></li>
+            </ul>
+        </div>
+    </footer>
+
+    <script>
+
+        const burger = document.getElementById('burger');
+        const navBar = document.getElementById('nav-bar');
+
+        burger.addEventListener('click', () => {
+            navBar.classList.toggle('active');
+        });
+
+
+        const basketToggle = document.getElementById('basket-toggle');
+        const cartDetails = document.getElementById('cart-details');
+        let cartCount = 0;
+        let cartItems = [];
+
+        basketToggle.addEventListener('click', () => {
+            cartDetails.classList.toggle('active');
+        });
+
+        // Add to Cart function
+        function addToCart(itemName, itemPrice) {
+            cartCount++;
+            cartItems.push({ name: itemName, price: itemPrice });
+            updateCartDisplay();
+        }
+
+        // Update Cart Display
+        function updateCartDisplay() {
+            const cartItemsContainer = document.getElementById('cart-items');
+            const cartTotalPrice = document.getElementById('cart-total-price');
+            let total = 0;
+
+            cartItemsContainer.innerHTML = '';
+            cartItems.forEach(item => {
+                const itemElement = document.createElement('div');
+                itemElement.classList.add('cart-item');
+                itemElement.innerHTML = `<p>${item.name} - ${item.price} kr</p>`;
+                cartItemsContainer.appendChild(itemElement);
+                total += item.price;
+            });
+            cartTotalPrice.textContent = total;
+        }
+        document.querySelector(".basket-wrapper").addEventListener("click", function () {
+            document.querySelector(".cart-details").classList.toggle("active");
+        });
+        // Add-to-Cart Button Functionality
+        document.querySelectorAll('.add-to-cart-btn').forEach(button => {
+            button.addEventListener('click', () => {
+                const itemName = button.getAttribute('data-item-name');
+                const itemPrice = parseInt(button.getAttribute('data-item-price'));
+                addToCart(itemName, itemPrice);
+            });
+        });
+
+
+        let slideIndex = 0;
+        showSlides();
+
+        function showSlides() {
+            const slides = document.querySelectorAll('.slide');
+            slides.forEach((slide) => (slide.style.display = 'none'));
+            slideIndex++;
+            if (slideIndex > slides.length) { slideIndex = 1; }
+            slides[slideIndex - 1].style.display = 'block';
+            setTimeout(showSlides, 5000);
+        }
+    </script>
+
+
+</body>
+
+</html>

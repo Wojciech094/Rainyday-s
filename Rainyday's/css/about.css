@@ -1,0 +1,50 @@
+.about-h {
+	font-family: 'Anton', 'Open Sans', sans-serif;
+	padding-top: 50px;
+
+	padding-bottom: 20px;
+	font-size: 3rem;
+}
+
+.about-img {
+	background-image: url(../media/Img/about-us.jpg);
+	width: 100%;
+	height: 829px;
+	background-size: cover;
+	background-position: center;
+}
+
+.about-h2 {
+	padding: 50px 300px 30px 300px;
+}
+.about-text {
+	padding: 30px 300px 30px 300px;
+}
+.about-h3 {
+	padding-bottom: 80px;
+	text-align: center;
+}
+@media (max-width: 592px) {
+	.about-h {
+		padding-top: 30px;
+		padding-bottom: 15px;
+		font-size: 1.5rem;
+	}
+
+	.about-img {
+		height: 400px;
+	}
+
+	.about-h2{
+		font-size: 1rem;
+		padding: 20px 15px;
+	}
+	.about-text {
+
+		padding: 20px 15px;
+	}
+
+	.about-h3 {
+		padding-bottom: 40px;
+	}
+}

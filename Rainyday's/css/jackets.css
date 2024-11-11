@@ -1,0 +1,399 @@
+/* jackets css */
+
+/* hero */
+.jackets-container {
+  display: flex;
+}
+.jackets-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  height: auto;
+  /* border: 50px solid #0f2624; */
+  justify-content: left;
+  background-color: #0f2624;
+  color: white;
+  padding-top: 42px;
+  padding-left: 50px;
+  padding-bottom: 109px;
+  padding-right: 50px;
+}
+.jackets-img {
+  background-image: url(../media/Img/image\ -jackets.jpg);
+  width: 100%;
+  height: auto;
+  background-size: cover;
+  background-position: right;
+}
+
+/* main */
+/* Directory */
+.jackets-dir {
+  display: flex;
+  padding-top: 10px;
+  padding-bottom: 10px;
+
+  /* border: 10px solid black; */
+}
+
+.j-home:hover {
+  color: grey;
+}
+
+.j-man:hover {
+  color: grey;
+}
+
+.j-jackets:hover {
+  color: grey;
+}
+
+.j-product:hover {
+  color: grey;
+}
+
+.fa-solid {
+  padding: 5px;
+  font-size: 13px;
+}
+
+/* Jackets Selection */
+.jackets-main-container {
+  display: flex;
+  /* border: 2px solid; */
+}
+
+.selection-container{
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  justify-content: left;
+}
+
+.sort-by{
+  display: flex;
+  justify-content: center;
+  position: relative;
+  left: 818px;
+  width: 135px;
+  top: -55px;
+  border: 1px solid black;
+  
+}
+.jackets-category{
+  padding: 8px;
+}
+.jackets-category h1{
+  display: flex;
+  font-weight: bolder;
+}
+
+.jackets-category p{
+  font-size: x-large;
+  font-weight: 1000;
+
+}
+
+.fa-chevron-up {
+  display: flex;
+  justify-content: flex-end;
+}
+.fa-chevron-down {
+  display: flex;
+  justify-content: flex-end;
+  padding-bottom: 5px;
+}
+
+.jackets-sizes {
+  display: grid;
+  grid-template-rows: 35px 35px;
+  grid-template-columns: 60px 60px 60px;
+  grid-gap: 5px;  
+  padding-top: 5px;
+
+}
+
+
+#griditem {
+  border: 1px solid black;
+  /* padding-left: 21px; */
+  padding-top: 5px;
+  font-weight: bold;
+  
+}
+
+.grid-item1 {
+  padding-left: 18px;
+}
+.grid-item2 {
+  padding-left: 23.5px;
+}
+.grid-item3 {
+  padding-left: 20.5px;
+}
+.grid-item4 {
+  padding-left: 23px;
+}
+.grid-item5 {
+  padding-left: 18px;
+}
+.grid-item6 {
+  padding-left: 13px;
+}
+
+.grid-item1:hover {
+  background-color: grey;
+}
+.grid-item2:hover {
+  background-color: grey;
+}
+.grid-item3:hover {
+  background-color: grey;
+}
+.grid-item4:hover {
+  background-color: grey;
+}
+.grid-item5:hover {
+  background-color: grey;
+}
+.grid-item6:hover {
+  background-color: grey;
+}
+
+/* Products */
+
+.jackets-products {
+  display: flex;
+  gap: 2rem;
+  flex-direction: row;
+  flex-wrap: wrap;
+  position: relative;
+  padding: 2rem;
+  width: 900px;
+  top: 30px;
+}
+.jackets-products img{
+  display: flex;
+  max-width: 220px;
+  height: auto;
+
+}
+
+.jacket-item {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    border: 1px solid #ddd;
+    background-color: white;
+    font-weight: bold;
+    padding: 10px; 
+    max-width: 220px; 
+    position: relative; 
+}
+
+.jacket-img-container {
+    width: 100%; 
+    display: flex;
+    justify-content: center; 
+}
+
+.jacket-img-container img {
+    max-width: 100%; 
+    height: auto; 
+}
+
+.btn-jdetails {
+    width: 100%; 
+    margin-top: 10px; 
+}
+
+.jacket-btn {
+    width: 100%;
+    height: 50px; 
+    background-color: #0f2624; 
+    color: white; 
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s ease; 
+}
+
+.offer-btn:hover {
+    background-color: #44443b;  
+}
+
+.jacket2 h3{
+  display: flex;
+  justify-content: center;
+  padding-left: 1.5rem;
+}
+.jacket-h{
+  display: flex;
+  justify-content: center;
+  padding-bottom: 10px;
+}
+.jacket-p{
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+/*  btns */
+.btn-jdetails {
+    border: 2px solid #ddd;
+    width: 100%;
+    height: auto; /* Adjusted height */
+}
+
+.jacket-btn {
+  width: 100%;
+  height: 50px; 
+  background-color: #0f2624; 
+  color: white;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.offer-btn:hover {
+  background-color: #44443b; 
+}
+
+.btn-jdetails a {
+  color: white; 
+  text-decoration: none;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+
+
+
+
+.jackets-color-container{
+  display: flex;
+  justify-content: center;
+  gap: 13px;
+  width: 100%;
+  height: 24px;
+ 
+
+}
+.jackets-color-btn-black{
+  width: 24px;
+  height: 24px;
+  background-color: black;
+
+}
+.jackets-color-btn-grey{
+  width: 24px;
+  height: 24px;
+  background-color: #44443b;
+
+}
+
+.btn-jdetails{
+  
+  border: 2px solid #ddd;
+  
+  
+}
+
+.btn-jdetails a{
+  color: black;
+  text-decoration: none;
+}
+.btn-jdetails ul{
+  list-style-type: none;
+}
+
+/* Mobil responsive, fikse knapp */
+@media (max-width: 390px){
+  .jackets-container{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    font-size: 14px;
+    
+  }
+  .jackets-img{
+    display: flex;
+    background-position: bottom;
+
+  }
+  .jackets-wrapper{
+    display: flex;
+
+  }
+  .jackets-products{
+  display: flex;
+  gap: 1rem;
+  flex-direction: column;
+  flex-wrap: wrap;
+  position: relative;
+  padding: 1rem;
+  width: 210px;
+  top: 20px;
+  }
+  .jackets-products img{
+  display: flex;
+  max-width: auto;
+  height: auto;
+
+  }
+
+  .jackets-main-container{
+    display: flex;
+    overflow: hidden;
+    /* flex-wrap: wrap; */
+    flex-direction: column;
+  }
+  .selection-container{
+    flex-direction: column;
+  }
+  .jackets-category{
+    display: flex;
+    flex-wrap: wrap;
+    overflow-x: hidden;
+    flex-direction: column;
+  }
+  .jackets-sizes {
+    display: grid;
+    grid-template-rows: 35px 35px;
+    grid-template-columns: 50px 50px 50px;
+    grid-gap: 5px;  
+    padding-top: 10px;
+    }
+
+  .grid-item1 {
+  padding-left: 15px;
+  }
+  .grid-item2 {
+  padding-left: 20.5px;
+  }
+  .grid-item3 {
+  padding-left: 16.5px;
+  }
+  .grid-item4 {
+  padding-left: 20px;
+  }
+  .grid-item5 {
+  padding-left: 16px;
+  }
+  .grid-item6 {
+  padding-left: 11px;
+  }
+  .btn-jdetails{
+    display: flex;
+    border: 2px solid #ddd;
+    width: 100%;
+    height: auto;
+  
+    }
+}
