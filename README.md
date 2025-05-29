@@ -11,7 +11,7 @@ The goal of the project was to build a responsive and accessible online store us
 
 # GitHub Repository
 
- [https://github.com/Wojciech094/rainydays](https://github.com/Wojciech094/rainydays)
+ [https://github.com/Wojciech094/Rainyday-s](https://github.com/Wojciech094/rainydays)
 
 
  # Features
